@@ -1,4 +1,4 @@
-num1,op,num2=input("enter:").split(' ')
+num1,op,num2=input("Expression:").split(' ')
 num1=float(num1)
 num2= float(num2)
 
