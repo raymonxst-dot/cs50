@@ -1,5 +1,5 @@
 Sound=["a","o","u","e","i","e"]
-User=input("Input:").lower()
+User=input("Input:")
 print("Output:",end="")
 for i in User :
     if i.casefold() not in Sound:
