@@ -11,7 +11,7 @@ def dollars_to_float(d):
 
 
 def percent_to_float(p):
-    presentage=float(p.strip().replace("$",""))/100
+    presentage=float(p.strip().replace("%",""))/100
     return presentage
 
 
